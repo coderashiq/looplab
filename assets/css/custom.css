@@ -1,0 +1,53 @@
+html{
+    scroll-behavior:smooth;
+}
+.navbar-bg-dark{
+    background-color:rgba(0,0,0,0.7);
+    border-bottom:3px solid #007bff;
+}
+.fa-check{
+    color: #007bff;
+    font-size:30px;
+    background:white;
+    border-radius:5px;
+    padding:5px;
+}
+.sec2{
+    background-image: url("../../media/image1.jpeg");
+    position:relative;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    height:950px;
+ 
+}
+
+.overlay{
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+}
+.con-padding{
+    padding-top:120px;
+}
+.no-border{
+    border:0px;
+    border-radius:10px;
+}
+.card-body{
+    border-radius:10px;
+}
+
+@media screen and (max-width:767px){
+    .sec2{
+        height:590px;
+    }
+}
+@media screen and (min-width:992px){
+    .sec2{
+        height:735px;
+    }
+}
